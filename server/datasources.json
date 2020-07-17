@@ -1,0 +1,13 @@
+{
+  "mongosales": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "${MONGO_URL}",
+    "database": "api-app-sales-idf",
+    "password": "",
+    "name": "mongosales",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
