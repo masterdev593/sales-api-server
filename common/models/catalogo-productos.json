@@ -1,5 +1,5 @@
 {
-  "name": "catalogo_productos_pruebas",
+  "name": "catalogo_productos",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

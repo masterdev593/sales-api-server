@@ -35,7 +35,7 @@
     "dataSource": "mongosales",
     "public": false
   },
-  "catalogo_productos_pruebas": {
+  "catalogo_productos": {
     "dataSource": "mongosales",
     "public": true
   }
