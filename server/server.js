@@ -28,7 +28,6 @@ boot(app, {
   dev: process.env.NODE_ENV,
 });
 
-console.log(app.datasources.on);
 const {mongoassy} = app.datasources;
 mongoassy.on('connected', _.once(() => log('> BASE DE DATOS Conectada')));
 app.start = _.once(function() {
