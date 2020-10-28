@@ -14,7 +14,7 @@ log.enabled = true;
 const app = loopback();
 const isBeta = !!process.env.BETA;
 // process.env.PORT = 5000;
-console.log(process.env.PORT);
+// console.log(process.env.PORT);
 expressState.extend(app);
 app.set('state namespace', '__sales__');
 app.set('port', process.env.PORT || 5000);
