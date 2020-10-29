@@ -1,4 +1,7 @@
 @echo off
+@echo off
+@echo off
+@echo off
 echo '----------------------------------------'
 echo '---         _,met$$$$$gg.            ---'
 echo '---      ,g$$$$$$$$$$$$$$$P.         ---'

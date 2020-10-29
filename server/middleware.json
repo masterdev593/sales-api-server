@@ -1,6 +1,16 @@
 {
   "initial:before": {
-    "loopback#favicon": {}
+    "loopback#favicon": {
+      "params": "$!../client/favicon.ico"
+    },
+    "loopback#static": {
+      "params": [
+        "$!../client",
+        {
+          "maxAge": "86400000"
+        }
+      ]
+    }
   },
   "initial": {
     "compression": {},
@@ -28,11 +38,21 @@
         "credentials": true,
         "maxAge": 86400
       }
+    },
+    "morgan": {
+      "params": ":status :method :response-time ms - :url"
     }
   },
   "session": {},
   "auth": {},
-  "parse": {},
+  "parse": {
+    "body-parser#json": {},
+    "body-parser#urlencoded": {
+      "params": {
+        "extended": true
+      }
+    }
+  },
   "routes": {
     "loopback#rest": {
       "paths": [
@@ -45,6 +65,11 @@
     "loopback#urlNotFound": {}
   },
   "final:after": {
-    "strong-error-handler": {}
+    "strong-error-handler": {
+      "params": {
+        "debug": false,
+        "log": false
+      }
+    }
   }
 }
