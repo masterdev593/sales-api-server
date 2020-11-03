@@ -16,17 +16,17 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express-state": "^2.0.0",
-    "helmet": "^3.23.3",
+    "helmet": "^4.2.0",
     "loopback": "^3.27.0",
     "loopback-boot": "^2.28",
     "loopback-component-explorer": "^6.5.1",
     "loopback-connector-mongodb": "^5.3.0",
     "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0",
-    "strong-error-handler": "^3.5.0"
+    "strong-error-handler": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
+    "eslint": "^7.12.1",
     "eslint-config-loopback": "^13.1.0"
   },
   "repository": {
