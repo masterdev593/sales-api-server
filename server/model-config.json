@@ -38,5 +38,9 @@
   "catalogo_productos_final": {
     "dataSource": "mongosales",
     "public": true
+  },
+  "catalogo_couriers": {
+    "dataSource": "mongosales",
+    "public": true
   }
 }
