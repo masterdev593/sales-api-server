@@ -12,7 +12,8 @@
     },
     "descripcion": {
       "type": "string",
-      "required": true
+      "required": false,
+      "default": "s/d"
     },
     "ubi": {
       "type": "string",
