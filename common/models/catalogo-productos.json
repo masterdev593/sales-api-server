@@ -18,6 +18,10 @@
     "ubi": {
       "type": "string",
       "default": "s/u"
+    },
+    "esAccesorio": {
+      "type": "number",
+      "default": 0
     }
   },
   "validations": [],
